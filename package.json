@@ -1,0 +1,11 @@
+{
+  "name": "fitness-booking-api",
+  "private": true,
+  "scripts": {
+    "setup": "python -m pip install -r requirements.txt",
+    "start": "python manage.py runserver",
+    "test": "python manage.py test",
+    "migrate": "python manage.py migrate",
+    "makemigrations": "python manage.py makemigrations"
+  }
+}
